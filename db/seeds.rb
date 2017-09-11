@@ -10,3 +10,9 @@ Book.create!([
   { title: 'Copying from Stack Overflow', author: 'Demonali' },
   { title: 'Trying Stuff Until it Works', author: 'Gulem' }
 ])
+
+
+Order.create!([
+  { title: 'Copying from Stack Overflow', amount: 54219, item: 9 },
+  { title: 'Trying Stuff Until it Works', amount: 87452, item: 15 }
+])
