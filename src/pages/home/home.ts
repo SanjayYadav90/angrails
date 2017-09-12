@@ -5,6 +5,7 @@ import { RouterLink } from '@angular/router';
   selector: 'page-home',
   templateUrl: 'home.html'
 })
+
 export class HomePage {
   
   constructor() {
